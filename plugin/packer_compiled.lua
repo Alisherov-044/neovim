@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/sadullaalisherov/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/home/sadullaalisherov/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/sadullaalisherov/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -113,6 +118,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/sadullaalisherov/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-tetris"] = {
+    loaded = true,
+    path = "/home/sadullaalisherov/.local/share/nvim/site/pack/packer/start/nvim-tetris",
+    url = "https://github.com/alec-gibson/nvim-tetris"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -145,10 +155,30 @@ _G.packer_plugins = {
     path = "/home/sadullaalisherov/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-be-good"] = {
+    loaded = true,
+    path = "/home/sadullaalisherov/.local/share/nvim/site/pack/packer/start/vim-be-good",
+    url = "https://github.com/ThePrimeagen/vim-be-good"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/sadullaalisherov/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-lichess"] = {
+    loaded = true,
+    path = "/home/sadullaalisherov/.local/share/nvim/site/pack/packer/start/vim-lichess",
+    url = "https://github.com/luk400/vim-lichess"
+  },
+  ["vim-prettier"] = {
+    loaded = true,
+    path = "/home/sadullaalisherov/.local/share/nvim/site/pack/packer/start/vim-prettier",
+    url = "https://github.com/prettier/vim-prettier"
+  },
+  ["vim-snake"] = {
+    loaded = true,
+    path = "/home/sadullaalisherov/.local/share/nvim/site/pack/packer/start/vim-snake",
+    url = "https://github.com/zyedidia/vim-snake"
   }
 }
 

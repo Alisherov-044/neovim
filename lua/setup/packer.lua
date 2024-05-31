@@ -41,10 +41,22 @@ return require('packer').startup(function(use)
   }
 }
 
+  use("prettier/vim-prettier")
+  use("wbthomson/packer.nvim")
+  use {
+    'jose-elias-alvarez/null-ls.nvim',
+    requires = { 'nvim-lua/plenary.nvim' }
+  }
+
   use {
         "williamboman/mason.nvim",
         "williamboman/mason-lspconfig.nvim",
         "neovim/nvim-lspconfig",
     }
+
+  use("zyedidia/vim-snake")
+  use("luk400/vim-lichess")
+  use("ThePrimeagen/vim-be-good")
+  use("alec-gibson/nvim-tetris")
 
 end)
